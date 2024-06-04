@@ -129,3 +129,29 @@ console.log(arr1);
 
 // Sample Output : -4,-3,1,2,3,5,6,7,8
 
+function nun2(c,v,n)
+{
+    if (c>v&c>n){
+        if(v>n){
+            console.log(c,v,n)
+        }
+       else{console.log(c,n,v)}
+    }
+    else if (v>c&v>n){
+        if(c>n){
+            console.log(v,c,n)
+        }
+       else{ console.log(v,n,c)}
+    }
+else if(n>v&n>c)
+    {
+        if(v>c){
+            console.log(n,v,c)
+        }
+       else{console.log(n,c,v)}
+    }
+
+
+}
+
+nun2(0, -1, 4 );
